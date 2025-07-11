@@ -1,6 +1,8 @@
 import './ProductCard.css';
 // This component displays a product card with its details and actions
 const ProductCard = ({ product, onDelete, onViewDetails }) => {
+
+  // Display the first comment if available
   const firstComment = product.comments && product.comments.length > 0 ? product.comments[0] : null;
 
   return (
@@ -29,7 +31,7 @@ const ProductCard = ({ product, onDelete, onViewDetails }) => {
           Delete
         </button>
       </div>
-      
+
     </li>
   );
 };

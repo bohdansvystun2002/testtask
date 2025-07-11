@@ -25,6 +25,7 @@ const sortProducts = (products, method) => {
 
 const ProductListPage = () => {
   const dispatch = useDispatch();
+
   const products = useSelector((state) => state.products.list);
 
   const [isAddModalOpen, setAddModalOpen] = useState(false);

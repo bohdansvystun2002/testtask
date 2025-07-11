@@ -31,16 +31,19 @@ const ProductFormModal = ({ onClose, onSave }) => {
       <div className="modal-box">
         <h2>Add Product</h2>
         <form onSubmit={handleSubmit} className="modal-form">
+          
           <input type="text" placeholder="Name" value={name} onChange={event => setName(event.target.value)} required />
           <input type="number" placeholder="Count" value={count} onChange={event => setCount(event.target.value)} required />
           <input type="number" placeholder="Width in cm" value={width} onChange={event => setWidth(event.target.value)} required />
           <input type="number" placeholder="Height in cm" value={height} onChange={event => setHeight(event.target.value)} required />
           <input type="number" placeholder="Weight in kg " value={weight} onChange={event => setWeight(event.target.value)} required />
           <input type="text" placeholder="Initial Comment" value={initialComment} onChange={event => setInitialComment(event.target.value)} />
+
           <div className="modal-buttons">
             <button type="submit">Save</button>
             <button type="button" onClick={onClose}>Cancel</button>
           </div>
+
         </form>
       </div>
     </div>
