@@ -1,0 +1,42 @@
+{
+  "products": [
+    {
+      "id": "e420",
+      "name": "М",
+      "count": 1,
+      "size": {
+        "width": 2,
+        "height": 2
+      },
+      "weight": "2",
+      "initialComment": "go",
+      "comments": [
+        {
+          "id": 1752244526821,
+          "productId": 1752244526821,
+          "description": "go",
+          "date": "17:35 11.07.2025"
+        }
+      ]
+    },
+    {
+      "id": "ecbf",
+      "name": "Booo",
+      "count": "2",
+      "size": {
+        "width": "2",
+        "height": "3"
+      },
+      "weight": "28",
+      "initialComment": "AA",
+      "comments": [
+        {
+          "id": 1752244853874,
+          "productId": 1752244853874,
+          "description": "AA",
+          "date": "18:10 11.07.2025"
+        }
+      ]
+    }
+  ]
+}
